@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>插入表格</title>
+	</head>	
+	<body>
+		<table border="1" cellspacing="0" align="center">
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">用户名：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="text"/></td>
+			</tr>
+				<td width="100" bgcolor="#FFFFFF">密码：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password"/></td>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">确认密码：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password"/></td>
+			</tr>
+            <tr>
+            	<td width="100" bgcolor="#FFFFFF">性别：</td>
+            	<td width="309" bgcolor="#FFFFFF"><form><input type="radio" name="sex" value="male" checked="checked"/>男<input type="radio" name="sex" value="male"/>女</form></td>
+			</tr> 
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">生日：</td>
+				<td width="309" bgcolor="#FFFFFF"><form><select name="date"><option value="gongli">公历</option></select> <select name="date"><option value="year">年</option></select> <select name="date"><option value="month">月</option></select> <select name="date"><option value="day">日</option></select></form></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">所在地：</td>
+				<td width="309" bgcolor="#FFFFFF"><form><select><option>中国</option></select> <select><option>河北</option>p</select> <select><option>石家庄</option>p</select></form></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">验证码：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password"/><img src="images/f.png"/></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">证件类型：</td>
+				<td width="309" bgcolor="#FFFFFF"><form><select><option>身份证</option></select></form></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">证件号：</td>
+				<td width="309" bgcolor="#FFFFFF"><input type="password"/></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">爱好：</td>
+				<td width="309" bgcolor="#FFFFFF"><form><input type="checkbox" name="hobby" value="音乐"/>音乐 <input type="checkbox" name="hobby" value="读书" checked="checked"/>读书 <input type="checkbox" name="hobby" value="跳舞" checked="checked"/>跳舞 <input type="checkbox" name="hobby" value="下棋"/>下棋 <input type="checkbox" name="hobby" value="其他"/>其他</form></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">说明：</td>
+				<td><form><textarea rows="4"></textarea></form></td>
+			</tr>
+			<tr>
+				<td width="100" bgcolor="#FFFFFF">上传头像</td>
+				<td><form><input type="file" name="files"/></form></td>
+			</tr>
+			<tr >
+				<td colspan="2" align="center">
+					<form> 
+						<input type="submit" value="提交" name="sub"/>
+						<input type="reset" value="重置" name="res"/>
+						<input type="button" value="按钮" name="but"/> 
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>		
