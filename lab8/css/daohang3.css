@@ -1,0 +1,6 @@
+ul{list-style: none;}
+a link{font:16px "微软雅黑";}
+a{color: white;}
+li{float: left;display: inline;background:url(../image/bg.gif) no-repeat;padding:10px;margin:0px;}
+.specil{color: #FFA500;}
+#a{color: #7CFC00;}

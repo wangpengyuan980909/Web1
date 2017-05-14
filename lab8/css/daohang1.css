@@ -1,0 +1,9 @@
+.menu{background:url(../image/left_nav_bottom.gif) repeat-y;}
+#titlediv{background:url(../image/left_nav_title.gif) no-repeat;
+display: inline;
+margin: 40px; padding: 0px;background-position: -5em 80%;color: white;}
+ul{list-style-image: url(../image/left_cur.gif);padding: 0px;margin: 0px}
+li{margin-left: 40px; padding-top: 5px;backgroundposition: -3em 90%;}-
+a link{font:16px "微软雅黑";}
+a active{color: red;font:16px "微软雅黑";}
+#footerdiv{background:url(../image/left_nav_bottom.gif) no-repeat;}

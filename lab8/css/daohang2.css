@@ -1,0 +1,4 @@
+.menu{background:url(../image/bj.png) no-repeat;}
+#footerdiv{background: url(../image/header.png) no-repeat;margin: 0px;padding: 20px}
+#titlediv{background: url(../image/lvbiaoti.png) no-repeat;}
+li{list-style-type:none;background: url(../image/baibiaoti.png) no-repeat;margin:5px; padding:5px;border-right: }
